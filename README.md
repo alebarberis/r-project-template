@@ -39,7 +39,7 @@ Every project should follow more or less the following structure:
     │   ├── testthat
     │   │   ├── test_*.R
     ├── README.md
-    ├── project.Rproj
+    ├── MyProject.Rproj
     └── .gitignore
 
 ### Data
@@ -268,7 +268,7 @@ The updated project structure should be:
     ├── renv.lock
     ├── README.md
     ├── README.Rmd
-    ├── project.Rproj
+    ├── MyProject.Rproj
     ├── .gitignore
     └── .Rprofile
 
