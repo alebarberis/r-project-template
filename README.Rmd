@@ -36,7 +36,7 @@ MyProject
 │   │   ├── *.Rmd
 ├── tests
 │   ├── testthat
-│   │   ├── test-*.R
+│   │   ├── test_*.R
 ├── README.md
 ├── project.Rproj
 └── .gitignore
@@ -205,7 +205,7 @@ MyProject
 │   │   ├── *.Rmd
 ├── tests
 │   ├── testthat
-│   │   ├── test-*.R
+│   │   ├── test_*.R
 ├── renv
 ├── renv.lock
 ├── README.md
