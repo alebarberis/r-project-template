@@ -189,9 +189,8 @@ restoring.
 
 ***NOTE***: Unfortunately, private libraries don’t travel well; like all
 R libraries, their contents are compiled for your specific machine
-architecture, operating system, and R version. For improved
-reproducibility, in the future we will look into containerization and
-virtual environments.
+architecture, operating system, and R version. In the future we will
+look into containerization and virtual environments.
 
 ### Packrat
 
