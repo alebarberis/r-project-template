@@ -50,13 +50,17 @@ The `raw` folder contains the raw data used in the project.
 
 This folder should be organised per data source, meaning that each data source should have its own subfolder. 
 
-Inside each data source folder there should be two directories:
+Inside each data source folder there should be two directories and one `README` file:
 
 * `code`: The `code` directory should contain the code used to download or pre-process the raw data.
-* `data`: The `data` directory should contain the actual raw data. 
+* `data`: The `data` directory should contain the actual raw data.
+* `README.txt`: The README file should contain an overview of the data. When available, it should include information on:
+   - The data type. 
+   - How the data was obtained (e.g., public repository, collaborators, internally generated).
+   - The procedure used to generate the data. 
 
 #### Processed
-The `processed` folder contains the processed data used in the project. 
+The `processed` folder contains the processed data used in the project. Any information of interest should be reported in a `README` file stored inside the folder.
 
 ### Docs
 The `docs` folder should contain any documentation produced with the project (e.g., summaries).
@@ -137,10 +141,15 @@ The project must have its own README file stored as `README.md` markdown.
 The README file should contain (all or some of) the following sections:
 
 * `Introduction`: A general overview of the project.
-* `Project Structure`: An overview of the structure of the project.
+* `Project Start`: When the project is started.
+* `Project Roadmap`: High-level overview of the project's goals and deliverables presented on a timeline.
+* `Data Analysis Plan`: Detailed description of the data analysis.
+* `Project Manager`: The person overseeing the project from initiation to completion.
+* `Project Team`: Who is working on the project. The project might be divided into various sub-teams, each with its own Team Leader (e.g., data analysis team).
+* `Data Analysis Team Leader`: The person responsible for the management and coaching of the data analysis team.
+* `Data Analysis Team`: Project team members working on the data analysis.
+* `R Project Structure`: An overview of the folder structure of the R project.
 * `Data`: Information on the available data. If data has been already pre-processed (e.g., RNA-seq data aligned and summarised), this section should contain information on the used pipelines.
-* `Analysis`: Overview of the analysis done for the project.
-* `People`: Who is working on the project. 
 * `Getting Started`: A short description of where to start to look at inside the project folder.
 * `Credits`: Recognize people who provided assistance, data, etc.
 * `Acknowledgements`: Acknowledgement of source of funding.
@@ -231,4 +240,4 @@ renv::restore()
 This is particularly helpful if you need to share your code with someone else or run your code on a new machine.
 
 ## Credits
-This template repository is maintained by Alessandro Barberis ([@alebarberis](https://github.com/alebarberis)).
+This template repository was created and is maintained by Alessandro Barberis ([@alebarberis](https://github.com/alebarberis)).
